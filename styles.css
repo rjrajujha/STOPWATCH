@@ -1,14 +1,24 @@
 body {
-    margin: 0 0;
-    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-.STOPWATCH_card {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    min-height: 250px;
-    width: 80%;
-    margin: auto;
-    border: 2px solid rgba(0, 0, 0, 0.4);
+.stopwatch {
+    text-align: center;
+}
+
+.time {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.control {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
 }

@@ -3,31 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles.css" rel="stylesheet">
-    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch</title>
 </head>
 
 <body>
-
-    <div class="STOPWATCH_card">
-        <div class="currenttime" id="currenttime">00:00:00:000</div>
-
-        <div class="buttons">
-            <button id="start_btn">Start</button>
-            <button id="pause_btn">Pause</button>
-            <button id="reset_btn">Reset</button>
-            <button id="cast_btn">Cast</button>
-        </div>
-
-        <div class="casts" id="casts">
-
-        </div>
+    <div class="stopwatch">
+        <div class="time" id="display">00:00:000</div>
+        <button id="startStop" class="control">Start</button>
+        <button id="reset" class="control">Reset</button>
     </div>
-
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
